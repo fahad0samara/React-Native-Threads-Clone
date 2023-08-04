@@ -41,7 +41,6 @@ export default function TabOneScreen() {
               width: 90,
               height: 90,
               alignSelf: "center",
-              marginBottom: 10,
             }}
             loop={false}
             onAnimationFinish={() => animationRef.current?.pause()}

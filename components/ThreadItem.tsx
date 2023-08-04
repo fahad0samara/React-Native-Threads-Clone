@@ -30,6 +30,20 @@ const ThreadItem = ({thread}:any) => {
       }}
       key={thread.id}
     >
+      <View
+     
+      >
+        <View
+          style={{
+            ...styles.separator,
+            borderColor: currentTheme === "dark" ? "gray" : "black",
+            
+            
+          }}
+        />
+
+       
+      </View>
       <View style={styles.authorContainer}>
         <Image
           source={thread.author.photo}
